@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="90dp"
+    android:layout_margin="5dp"
+    card_view:cardCornerRadius="4dp">
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:padding="8dp">
+
+        <ImageView
+            android:id="@+id/product_image_url"
+            android:layout_width="100dp"
+            android:layout_height="80dp"
+            android:layout_margin="@dimen/text_over_image_margin"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:id="@+id/product_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_over_image_margin"
+            android:textAppearance="?attr/textAppearanceListItem"
+            android:textColor="@android:color/black"
+            android:gravity="center_horizontal"
+            android:layout_toRightOf="@+id/product_image_url"
+            android:layout_alignBaseline="@+id/product_image_url"
+            android:maxLines="2"
+            android:ellipsize="end"
+            />
+
+        <TextView
+            android:id="@+id/product_price"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_over_image_margin"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_below="@+id/product_title"
+            android:layout_alignLeft="@+id/product_title"
+            android:layout_alignBottom="@+id/product_image_url"
+            android:textColor="@android:color/holo_red_dark"
+            android:gravity="center"/>
+
+    </RelativeLayout>
+
+
+</android.support.v7.widget.CardView>
