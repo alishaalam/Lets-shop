@@ -42,7 +42,8 @@
                 android:id="@+id/product_review_count"
                 style="?android:attr/textAppearanceMedium"
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content" />
+                android:layout_height="wrap_content"
+                tools:text="Review Count"/>
 
 
         </LinearLayout>

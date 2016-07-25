@@ -7,6 +7,7 @@ import android.support.v4.view.ViewPager;
 import android.view.MenuItem;
 
 import com.happytimes.alisha.letsshop.R;
+import com.happytimes.alisha.letsshop.adapter.ProductPagerAdapter;
 
 /**
  * An activity representing a single Product detail screen. This

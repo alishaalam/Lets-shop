@@ -1,10 +1,11 @@
-package com.happytimes.alisha.letsshop.app;
+package com.happytimes.alisha.letsshop.adapter;
 
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
 import android.support.v4.app.FragmentManager;
 import android.support.v4.app.FragmentStatePagerAdapter;
 
+import com.happytimes.alisha.letsshop.app.ProductDetailFragment;
 import com.happytimes.alisha.letsshop.model.StoreProducts;
 
 /**
