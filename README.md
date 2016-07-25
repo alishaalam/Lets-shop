@@ -1,4 +1,4 @@
-# Pre-work - *Lets Shop*
+#*Lets Shop*
 
 **Lets shop** is an android app that allows people to view a list of items and their details
 
@@ -17,7 +17,7 @@ The following **required** functionality is completed:
 * [x] Images are lazy loaded
 * [x] Displayed all product details on the detail page
 * [x] Implemented left and right swiping of products using a viewpager
-* [ ] Implement fetching the rest of the pages
+* [x] Implement fetching the rest of the pages
 
 The following bonus features will be implemented:
 * [x] Implemented ViewPager to swipe products left and right
