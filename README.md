@@ -16,18 +16,17 @@ The following **required** functionality is completed:
 * [x] List view includes - Product Name, Image and Price. Used cardview to display each product in the list.
 * [x] Images are lazy loaded
 * [x] Displayed all product details on the detail page
-* [x] Implemented left and right swiping of products using a viewpager
 * [x] Implement fetching the rest of the pages
 
-The following bonus features will be implemented:
+The following additional features have been implemented:
 * [x] Implemented ViewPager to swipe products left and right
-* [ ] Implement gridlayout for tablets
+* [x] Implement gridlayout for tablets
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
 
-*[ ] //TODO
+*[ ] 
 
 ## License
 
