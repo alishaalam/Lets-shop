@@ -23,7 +23,7 @@ import java.util.Map;
 public class StoreProducts {
 
     @JsonProperty("id")
-    private String id;
+    public String id;
     @JsonProperty("products")
     List<Product> productsList;
 

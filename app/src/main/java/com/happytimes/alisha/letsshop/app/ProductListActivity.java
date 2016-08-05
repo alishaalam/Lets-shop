@@ -22,6 +22,8 @@ import com.happytimes.alisha.letsshop.helper.VolleySingleton;
 import com.happytimes.alisha.letsshop.model.Product;
 import com.happytimes.alisha.letsshop.model.StoreProducts;
 
+import org.parceler.Parcels;
+
 import java.util.ArrayList;
 import java.util.List;
 
@@ -139,9 +141,9 @@ public class ProductListActivity extends AppCompatActivity implements RecyclerVi
         Product product = productList.get(position);
         Context context = v.getContext();
         Intent intent = new Intent(context, ProductDetailActivity.class);
-        intent.putExtra(ProductDetailFragment.ARG_ITEM_ID, product.getProductId());
+        intent.putExtra(ProductDetailFragment.ARG_ITEM, Parcels.wrap(product));
+        intent.putExtra(ProductDetailFragment.ARG_ITEM_PAGER_ID, position);
         context.startActivity(intent);
-
     }
 
     public static boolean isTablet(Context context) {

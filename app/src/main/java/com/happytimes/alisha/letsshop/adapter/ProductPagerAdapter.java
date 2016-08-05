@@ -13,8 +13,6 @@ import com.happytimes.alisha.letsshop.model.StoreProducts;
  */
 public class ProductPagerAdapter extends FragmentStatePagerAdapter {
 
-
-
     public ProductPagerAdapter(FragmentManager fm) {
         super(fm);
     }
@@ -25,6 +23,7 @@ public class ProductPagerAdapter extends FragmentStatePagerAdapter {
         Bundle arguments = new Bundle();
         arguments.putInt(ProductDetailFragment.ARG_ITEM_PAGER_ID, i);
         fragment.setArguments(arguments);
+
         return fragment;
     }
 

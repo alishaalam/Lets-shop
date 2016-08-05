@@ -200,7 +200,7 @@ public class ProductAdapter extends RecyclerView.Adapter<RecyclerView.ViewHolder
 
         @Override
         public void onClick(View v) {
-            mItemListener.recyclerViewListClicked(v, this.getLayoutPosition());
+            mItemListener.recyclerViewListClicked(v, this.getAdapterPosition());
         }
     }
 }

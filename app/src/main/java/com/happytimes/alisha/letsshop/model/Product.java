@@ -4,14 +4,13 @@ import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.annotation.JsonInclude;
 import com.fasterxml.jackson.annotation.JsonPropertyOrder;
 
+import org.parceler.Parcel;
+
 /**
  * Created by alishaalam on 7/8/16.
  */
 
-/*@JsonTypeInfo(
-        use = JsonTypeInfo.Id.NAME,
-        include = JsonTypeInfo.As.PROPERTY,
-        property = "type")*/
+@Parcel
 @JsonInclude(JsonInclude.Include.NON_NULL)
 @JsonPropertyOrder({
         "productId",
