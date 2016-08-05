@@ -108,7 +108,7 @@
                 android:layout_width="match_parent"
                 android:layout_height="150dp"
                 android:layout_below="@+id/product_long_desc_heading"
-                android:layout_margin="15dp"
+                android:layout_margin="5dp"
                 android:background="@drawable/scrollview_background">
 
                 <WebView
