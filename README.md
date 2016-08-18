@@ -22,11 +22,6 @@ The following additional features have been implemented:
 * [x] Implemented ViewPager to swipe products left and right
 * [x] Implement gridlayout for tablets
 
-## Video Walkthrough 
-
-Here's a walkthrough of implemented user stories:
-
-*[ ] 
 
 ## License
 
